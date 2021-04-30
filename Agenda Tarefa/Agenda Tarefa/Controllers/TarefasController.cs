@@ -18,12 +18,27 @@ namespace Agenda_Tarefa.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(PegarDatas());
         }
 
         private List<DatasViewModel> PegarDatas()
         {
+            DateTime dataAtual = DateTime.Now;
+            DateTime dataLimite = DateTime.Now.AddDays(10);
+            int qtdDias = 0;
+            DatasViewModel data;
+            List<DatasViewModel> listaDatas = new List<DatasViewModel>();
 
+            while(dataAtual < dataLimite)
+            {
+                data = new DatasViewModel();
+                data.Datas = dataAtual.ToShortDateString();
+                data.Identificadores = "collapse" + dataAtual.ToShortDateString().Replace("/","");
+                listaDatas.Add(data);
+                qtdDias = qtdDias + 1;
+                dataAtual = DateTime.Now.AddDays(qtdDias);
+            }
+            return listaDatas;
         }
     }
 }

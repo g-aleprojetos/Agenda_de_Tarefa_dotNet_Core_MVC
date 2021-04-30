@@ -5,7 +5,11 @@ using System.Threading.Tasks;
 
 namespace Agenda_Tarefa.Models
 {
-    public class FatasViewModel
+    public class DatasViewModel
     {
+        public string Datas { get; set; }
+
+        public string Identificadores { get; set; }
+
     }
 }
