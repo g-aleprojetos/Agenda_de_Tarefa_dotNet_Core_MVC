@@ -150,3 +150,4 @@ C:\Users\DELL\Documents\myProjects\Agenda_de_Tarefa_dotNet_Core_MVC\Agenda Taref
 C:\Users\DELL\Documents\myProjects\Agenda_de_Tarefa_dotNet_Core_MVC\Agenda Tarefa\Agenda Tarefa\obj\Debug\netcoreapp3.1\Razor\Views\Tarefas\Index.cshtml.g.cs
 C:\Users\DELL\Documents\myProjects\Agenda_de_Tarefa_dotNet_Core_MVC\Agenda Tarefa\Agenda Tarefa\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ListaTarefas\Default.cshtml.g.cs
 C:\Users\DELL\Documents\myProjects\Agenda_de_Tarefa_dotNet_Core_MVC\Agenda Tarefa\Agenda Tarefa\obj\Debug\netcoreapp3.1\Razor\Views\Tarefas\CriarTarefa.cshtml.g.cs
+C:\Users\DELL\Documents\myProjects\Agenda_de_Tarefa_dotNet_Core_MVC\Agenda Tarefa\Agenda Tarefa\obj\Debug\netcoreapp3.1\Razor\Views\Tarefas\AtualizarTarefa.cshtml.g.cs
