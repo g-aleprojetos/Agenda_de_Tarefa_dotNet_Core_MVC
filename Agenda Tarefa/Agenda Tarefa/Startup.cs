@@ -54,7 +54,7 @@ namespace Agenda_Tarefa
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Tarefas}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}");
             });
         }
     }
